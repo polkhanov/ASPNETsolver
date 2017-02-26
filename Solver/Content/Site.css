@@ -1,0 +1,66 @@
+﻿body {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.alert{
+        position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    display:none;
+}
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+.wel-h1 
+{
+    padding-bottom:30px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.inptxt{
+    margin-top: 5px;
+    margin-bottom: 5px;
+        margin-right: 10px;
+    margin-left: 10px;
+}
+.row {
+     padding-right: 100px;
+   display:-webkit-inline-box;
+}
+.inputdata{
+        padding-left: 300px;
+
+}
+.putright{
+        position: absolute;
+}
+.radio-group {
+    padding: 10px 0 10px 0;
+    margin-left: -5px;
+   
+}
+#bionical-par{
+    margin-left: -15px;
+    padding-bottom: 5px;
+     display:inline-flex;
+     display:none;
+}
+#output{
+    font-size: 30px;
+}
+#outpanel{display:none;}
